@@ -1,0 +1,401 @@
+diff a/src/App.css b/src/App.css	(rejected hunks)
+@@ -1,6 +1,3 @@
+-.App {
+-  text-align: center;
+-}
+ 
+ .App-header {
+   background-color: #282c34;
+@@ -22,3 +19,392 @@
+   margin-top: 20px;
+   margin-bottom: 10px;
+ }
++
++* {
++	margin: 0;
++	padding: 0;
++}
++.all-content {
++	background-color: rgba(0, 120, 212, 1);
++	color: rgba(255,255,255,1);
++	padding: 12px 12px 12px 0px;
++	text-indent: 16px
++}
++.nav-tabs {
++	margin-top: 24px;
++}
++.nav-tabs .nav-item {
++	color: black;
++    background-color: white;
++    margin-bottom: 15px;
++}
++.nav-pills .nav-link {
++	border-radius: 0;
++	margin-bottom: 1px;
++	margin-right: 1px;
++	background-color: rgba(80,80,85,1);
++}
++.nav-tabs .nav-link.active {
++	color: black;
++	border-color: blue;
++}
++.nav-tabs .nav-link:active {
++  background-color: rgba(204, 205, 206, 1);
++}
++.nav-pills .nav-link.active, .nav-pills .show >.nav-link {
++	background-color: rgba(0, 120, 212, 1);
++}
++ul li {
++	margin-top: 12px;
++}
++ul {
++	margin-left: 24px; 
++}
++a, span {
++	font-size: 15px;
++}
++a:hover {
++	color: black;
++}
++.tab-description{
++	border: 1px solid black;
++	width: 100%;
++	height: 500px;
++}
++.container {
++    float: left;
++}
++body {
++ 	 padding-top: 12px;
++ 	 display: flex;
++     align-content: center;
++     align-items: center;
++     align-self: center;
++     background-color: rgba(244, 244, 244, 1);
++}
++.row {
++	margin-left: 9px;	
++	margin-right: 9px;
++}
++
++.service-box {
++    background-color: white;
++    padding: 15px 20px 15px 0px;
++    margin: 5px 0px 5px;
++    border: 1px solid gray;
++    box-shadow: 2px 2px 3px 1px #aaaaaa;
++    width: 330px;
++    height: 130px;
++    overflow: hidden;
++}
++.col-2 {
++	padding-right: 0px;
++}
++div.color > a {
++	color: white;
++}
++.service-box:hover {
++    background-color: #f9f9f9;
++	border: 1px solid blue;
++}
++.service-box i {
++    font-size: 40px;
++    align-items: center;
++    display: flex;
++    position: absolute;
++    height:100%;
++    width: 100%;
++    color: #989898;
++}
++.service-box h3 a {
++    text-decoration: none;
++    color: black;
++    font-size: 16px;
++}
++.service-box :before {
++    margin: 0 auto;
++    display: block;
++    float: none;
++}
++.col-12 > p {
++	font-size: 14px;
++    height: 70px;
++    overflow: hidden;
++}
++.col-12 {
++	padding-left: 14px;
++	padding-right: 0px;
++}
++.tab-content {
++	padding-bottom: 23px;
++}
++#name-product {
++	width: 850px;
++	height: 38px;
++	text-indent: 12px;
++	margin: 24px 0px 24px 16px;
++}
++.displayform{
++	display: flex;
++	width: -webkit-fill-available;
++}
++.table2 {
++	background-color: white;
++	margin: 0px 0px 24px 24px;
++	position: relative;
++	box-shadow: 2px 2px 5px #aaaaaa;
++}
++.table2-1 {
++	background-color: rgba(244, 244, 244, 1);
++    margin: 21px;
++    width: auto;
++    padding: 5px;
++}
++.table2-2 {
++	background-color: white;
++    margin: 24px 0px 10px -8px;
++    width: auto;
++    padding: 5px;
++}
++.table3 {
++    background-color: white;
++    margin: 24px -3px 24px 0px;
++    width: 100%;
++    padding: 12px 12px 12px 5px;
++}
++.align-self-center {
++	margin-left: 1px;
++	display: flex;
++}
++.footer-icon {
++	margin-left: -24px;
++}
++.nav-pills .nav-color {
++	background-color: rgba(222,222,222,1);
++	color: black;
++}
++.box {
++	margin-left: 24px;
++	background-color: white;
++}
++.product-search-container {
++	padding: 24px 62px 24px 24px;
++	position: relative;
++}
++.product-search{
++	width: 101.4%;
++	text-indent: 12px;
++}
++.clear-search {
++	margin-right: 56px;
++}
++.product-search-container .clear-search {
++	background: 0 0;
++    border: 0;
++    position: absolute;
++    right: -4px;
++    top: 24px;
++    width: auto;
++}
++.text-input {
++	text-align: right;
++}
++.b{
++	font-weight: 700;
++}
++.equals {
++	color: green;
++}
++.sub-total {
++	text-align: right;
++	padding-right: 16px;
++}
++.box-cat {
++	margin-top: 24px;
++	padding-left: 0px;
++	box-shadow: 2px 2px 5px #aaaaaa;
++}
++.details{
++	padding-left: 0px;
++	padding-top: 5px;
++	padding-bottom: 24px;
++}
++.hr {
++	border-left: 0.5px ridge #aaaaaa;
++	height: 200px; 
++	font-size: 13px;
++}
++.estimate-selected {
++    margin-top: 24px;
++    margin-left: 24px;
++    padding-right: 0px;
++    width: fit-content;
++    background-color: white;
++    box-shadow: 2px 2px 6px 1px #aaaaaa;
++}
++.btn {
++	border-radius: 0px;
++}
++.selected-box {
++    padding-right: 40px;
++    
++}
++.estimate-input {
++    height: 38px;
++    text-indent: 12px;
++    margin: 24px 10px 0px -16px;
++}
++.estimate-total {
++	padding: 10px;
++}
++.input-type {
++	border: 1px solid transparent;
++	transition: border-color .3s;
++	width: 100%;
++    height: 38px;
++    text-indent: 12px;
++}
++.input-type:hover {
++	border: 1px solid blue;
++}
++.hr-machine {
++	width: 95%;
++    margin-left: 12px;
++    margin-right: 12px;
++    position: absolute;
++    margin-top: 22px;
++}
++.button-transparent {
++	margin-top: 12px;
++    margin-bottom: 12px;
++}
++.option-right {
++	margin-top: 22px;
++    padding-right: 0px;
++    padding-left: 0px;
++}
++.option {
++	margin-left: 0px;
++	border: 1px solid blue;
++	margin-bottom: 10px;
++}
++.button-option-right  {
++	font-size: 20px;
++	color: blue;
++}
++.button-option-top  {
++	color: blue;
++	border-radius: 50%;
++    height: 40px;
++    width: 40px;
++    margin-left: 6px;
++    padding: 0; 
++    background-color: white;
++}
++.button-option-top:hover {
++	color: white;
++	background-color: blue;
++	transition: 0.5s;
++}
++.more-info {
++	padding-right: 0px;
++    padding-left: 0px;
++}
++.format-pills {
++	box-shadow: 1px 1px 5px #aaaaaa;
++}
++.custom-control, .custom-switch {
++	margin-right: 14px;
++}
++.nav-tabs {
++	border-bottom: 0px;
++}
++.note {
++    padding: 0px;
++}
++.x-style {
++	margin-bottom: 34px;
++    margin-left: 15px;
++}
++.x-style2 {
++    margin-bottom: 83px;
++    margin-left: -50px;
++}
++.text-style2 {
++    margin-bottom: 32px;
++}
++.hr-left {
++	margin-left: 24px;
++}
++.browser-default {
++	margin-bottom: 5px;
++}
++.table4 {
++	background-color: white;
++    margin: 21px;
++    width: auto;
++    padding: 5px;
++}
++#text-virtualmachines{
++	 display: flex;
++     align-content: center;
++     align-items: center;
++     align-self: center;
++}
++a:link {
++  color: #0062AD;
++  text-decoration: none;
++}
++
++a:visited {
++  color: #0062AD;
++  text-decoration: none;
++}
++
++a:hover {
++  text-decoration: underline;
++}
++
++a:active {
++  text-decoration: underline;
++}
++#buttonradio{
++	 margin: 5px;
++}
++#billing{
++	margin-left: -18px;
++}
++.icon-position {
++	background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.45rem center/8px 10px;
++	font-size: 15px;
++    padding: 5px;
++}	
++.wa-text-Number {
++	width:  min-content;
++}
++.wide-margin {
++	margin-bottom: 14px;
++}
++.x-position {
++	margin: 0px 0px auto 38px;
++}
++.equal-position {
++	margin-bottom: auto;
++	margin-left: 20px;
++}
++.equal1 {
++	margin-bottom: 12px;
++	margin-left: 24px;
++}
++.equal-numeric {
++	margin-bottom: 12px;
++	margin-left: 31px;
++}
++.equal-position2 {
++	margin-bottom: 73px;
++	margin-left: 28px;
++}
++.equal-numeric2 {
++	margin-bottom: 71px;
++	margin-left: 31px;
++}
